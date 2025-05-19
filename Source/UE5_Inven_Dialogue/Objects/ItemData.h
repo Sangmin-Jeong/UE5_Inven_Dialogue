@@ -1,7 +1,8 @@
 ﻿#pragma once
 
+#include "Components/Image.h"
+#include "ObjectType.h"
 #include "CoreMinimal.h"
-#include "UE5_Inven_Dialogue/Objects/ObjectType.h"
 #include "ItemData.generated.h"
 
 USTRUCT(BlueprintType)
@@ -17,6 +18,9 @@ struct FItemData
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemData")
 	UMaterialInstance* MaterialInstance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemData")
+	UTexture2D* ItemTexture;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemData")
 	int32 ID;

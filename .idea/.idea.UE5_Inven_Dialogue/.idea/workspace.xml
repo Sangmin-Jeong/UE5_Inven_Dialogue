@@ -8,35 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea9ddb5a-ebe5-41b8-b2bf-b88e1621b50e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/ItemData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/InteractableObject.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/InteractableObject.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemBlue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemBlue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemGreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemGreen.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemPink.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemPink.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemYellow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemYellow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/BP_InteractableObject.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/BP_InteractableObject.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemBlue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemBlue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemGreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemGreen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemPink.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemPink.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemYellow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemYellow.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/0/P9/7YO2U6LIKLN1K341WSP0PX.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/32/VKEML8492AK6C11IB2MWUM.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/CB/GFOK8NBV5RNKRULOX9617E.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/5/T1/C8VZU1ACXAW2DFI2A2NG2M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/5/TQ/J3BLWT4DVHPJBQHRB25ZA8.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/6/DQ/E6PUCO5PYVQFYDAR6CA2O4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/6/DQ/E6PUCO5PYVQFYDAR6CA2O4.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/TZ/0DMMIG1ROPRXFGG9AP0TO8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/TZ/0DMMIG1ROPRXFGG9AP0TO8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/A/JZ/EOQ2Y9UWEXBBJ6VP76OI1A.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/I1/3MFQA9ZHBXYJ62TMICGJTQ.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/E/PM/L0XHTIX542RFEX9TSCW684.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platforms/HoloLens/Config/HoloLensEngine.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/0/RL/XUZYTANDHN93TFYD9ZDXQ4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/0/RL/XUZYTANDHN93TFYD9ZDXQ4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/3/DV/04EWR7D2LN1V9E91VQVMJD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/3/DV/04EWR7D2LN1V9E91VQVMJD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/30/KVC6LVDQPSFU7KTU6F1ZFC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/30/KVC6LVDQPSFU7KTU6F1ZFC.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/MK/BGMVGQM9WX0OZYRXCQGXZD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/MK/BGMVGQM9WX0OZYRXCQGXZD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/6/21/2K6MKPI4V21EB62PCEBN5B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/6/21/2K6MKPI4V21EB62PCEBN5B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/OK/PR2Y3ASL5GXQ4J5IJKV1RV.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/OK/PR2Y3ASL5GXQ4J5IJKV1RV.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/XK/NVVFO3X5K7392W7F369CKD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/XK/NVVFO3X5K7392W7F369CKD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/E/28/WXGGSC65DMWEQ9KQOWKWT3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/E/28/WXGGSC65DMWEQ9KQOWKWT3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/ItemData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/ItemData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_Dialogue.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_Dialogue.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -149,6 +137,7 @@
       <updated>1696390224533</updated>
       <workItem from="1747673885511" duration="661000" />
       <workItem from="1747675673003" duration="1239000" />
+      <workItem from="1747686761820" duration="1341000" />
     </task>
     <servers />
   </component>
