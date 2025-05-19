@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ObjectType.h"
 #include "GameFramework/Actor.h"
+#include "ItemData.h"
 #include "InteractableObject.generated.h"
 
 UCLASS()
@@ -17,16 +17,7 @@ public:
 	AInteractableObject();
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	ObjectType Type;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int ID;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString ObjectName;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int Amount;
+	FItemData ItemData;
 
 protected:
 	// Called when the game starts or when spawned

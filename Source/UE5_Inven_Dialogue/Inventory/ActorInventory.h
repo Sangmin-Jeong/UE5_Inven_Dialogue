@@ -7,6 +7,8 @@
 #include "UE5_Inven_Dialogue/Objects/InteractableObject.h"
 #include "ActorInventory.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnItemAddedToInventory, FItemData, ItemData);
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class UE5_INVEN_DIALOGUE_API UActorInventory : public UActorComponent
@@ -17,23 +19,22 @@ public:
 	// Sets default values for this component's properties
 	UActorInventory();
 
+	// Events
+	UPROPERTY(BlueprintCallable, BlueprintAssignable, Category = "Inventory")
+	FOnItemAddedToInventory OnItemAddedToInventory;
+	
 protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
 	
 	// Inventory Items
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Inventory)
-	TMap<int, AInteractableObject*> InventoryItems;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Inventory")
+	TMap<int, FItemData> InventoryItems;
 
 public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	UFUNCTION(BlueprintCallable)
+	TMap<int, FItemData> GetInventoryItems() const { return InventoryItems; }
 
 	UFUNCTION(BlueprintCallable)
-	TMap<int, AInteractableObject*> GetInventoryItems() const { return InventoryItems; }
-
-	UFUNCTION(BlueprintCallable)
-	AInteractableObject* GetInventoryItemByID(int id) const;
+	FItemData GetInventoryItemByID(int id) const;
 
 	UFUNCTION(BlueprintCallable)
 	void AddInventoryItem(AInteractableObject* OBJ);

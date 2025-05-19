@@ -13,52 +13,35 @@ UActorInventory::UActorInventory()
 	// ...
 }
 
-
-// Called when the game starts
-void UActorInventory::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
-
-// Called every frame
-void UActorInventory::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
-}
-
-AInteractableObject* UActorInventory::GetInventoryItemByID(int id) const
+FItemData UActorInventory::GetInventoryItemByID(int id) const
 {
 	if (InventoryItems.Contains(id))
 	{
 		return InventoryItems[id];
 	}
-	return nullptr;
+	return FItemData();
 }
 
 void UActorInventory::AddInventoryItem(AInteractableObject* OBJ)
 {
 	if (OBJ)
 	{
-		for (const auto& Item : InventoryItems)
+		for (auto& Item : InventoryItems)
 		{
 			// There is the same type of object in the inventory
-			if(Item.Value->ID == OBJ->ID)
+			if(Item.Value.ID == OBJ->ItemData.ID)
 			{
-				Item.Value->Amount += OBJ->Amount;
-				UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ObjectName);
+				Item.Value.Quantity += OBJ->ItemData.Quantity;
+				UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ItemData.ItemName.ToString());
+				OnItemAddedToInventory.Broadcast(OBJ->ItemData);
 				OBJ->Destroy();
 				return;
 			}
 		}
 		// If the object is not in the inventory, add it
-		InventoryItems.Add(InventoryItems.Num(), OBJ);
-		UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ObjectName);
+		InventoryItems.Add(InventoryItems.Num(), OBJ->ItemData);
+		UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ItemData.ItemName.ToString());
+		OnItemAddedToInventory.Broadcast(OBJ->ItemData);
 		OBJ->Destroy();
 	}
 	else

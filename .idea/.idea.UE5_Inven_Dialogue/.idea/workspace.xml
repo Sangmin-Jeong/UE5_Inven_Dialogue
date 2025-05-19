@@ -7,44 +7,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fddeb828-57ff-4ec4-810c-dc257a8f5d8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/ObjectType.h" afterDir="false" />
+    <list default="true" id="ea9ddb5a-ebe5-41b8-b2bf-b88e1621b50e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/ItemData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/InteractableObject.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/InteractableObject.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemBlue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemBlue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemGreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemGreen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemPink.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemPink.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemYellow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/ItemYellow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/0T/7R1A7HAYPST905HLQJGNCK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/IA/KU1KNBBSRHZY8EW7KCSD3T.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/0/P9/7YO2U6LIKLN1K341WSP0PX.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/32/VKEML8492AK6C11IB2MWUM.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/CB/GFOK8NBV5RNKRULOX9617E.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/5/T1/C8VZU1ACXAW2DFI2A2NG2M.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/5/TQ/J3BLWT4DVHPJBQHRB25ZA8.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/6/DQ/E6PUCO5PYVQFYDAR6CA2O4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/6/DQ/E6PUCO5PYVQFYDAR6CA2O4.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/TZ/0DMMIG1ROPRXFGG9AP0TO8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/TZ/0DMMIG1ROPRXFGG9AP0TO8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/A/JZ/EOQ2Y9UWEXBBJ6VP76OI1A.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/I1/3MFQA9ZHBXYJ62TMICGJTQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/E/PM/L0XHTIX542RFEX9TSCW684.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platforms/HoloLens/Config/HoloLensEngine.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/CoreMinimal.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/Logging/LogMacros.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/Logging/LogVerbosity.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2x9JePcNBpwD3slSPUadHcDFJCN" />
+  <component name="ProjectId" id="2xK5NEhjZwqZFfiHU3Dq7ukhJOs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +66,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -135,16 +142,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fddeb828-57ff-4ec4-810c-dc257a8f5d8e" name="Changes" comment="" />
+      <changelist id="ea9ddb5a-ebe5-41b8-b2bf-b88e1621b50e" name="Changes" comment="" />
       <created>1696390224533</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696390224533</updated>
-      <workItem from="1747344453800" duration="580000" />
-      <workItem from="1747359548206" duration="10143000" />
-      <workItem from="1747609900210" duration="2270000" />
-      <workItem from="1747612298927" duration="11569000" />
-      <workItem from="1747625972090" duration="1455000" />
+      <workItem from="1747673885511" duration="661000" />
+      <workItem from="1747675673003" duration="1239000" />
     </task>
     <servers />
   </component>
