@@ -43,6 +43,11 @@ void AUE5_Inven_DialogueCharacter::BeginPlay()
 	Super::BeginPlay();
 }
 
+void AUE5_Inven_DialogueCharacter::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+}
+
 //////////////////////////////////////////////////////////////////////////// Input
 
 void AUE5_Inven_DialogueCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
