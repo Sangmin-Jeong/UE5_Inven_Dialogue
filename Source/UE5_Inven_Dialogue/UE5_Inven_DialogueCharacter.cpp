@@ -35,6 +35,9 @@ AUE5_Inven_DialogueCharacter::AUE5_Inven_DialogueCharacter()
 	//Mesh1P->SetRelativeRotation(FRotator(0.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
 
+	//Initialize Inventory
+	Inventory = CreateDefaultSubobject<UActorInventory>(TEXT("Inventory"));
+
 }
 
 void AUE5_Inven_DialogueCharacter::BeginPlay()
@@ -66,7 +69,6 @@ void AUE5_Inven_DialogueCharacter::SetupPlayerInputComponent(class UInputCompone
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AUE5_Inven_DialogueCharacter::Look);
 	}
 }
-
 
 void AUE5_Inven_DialogueCharacter::Move(const FInputActionValue& Value)
 {

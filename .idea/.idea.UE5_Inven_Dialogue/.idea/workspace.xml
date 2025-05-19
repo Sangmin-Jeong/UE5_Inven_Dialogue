@@ -8,13 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddeb828-57ff-4ec4-810c-dc257a8f5d8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/ObjectType.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/InteractableObject.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/InteractableObject.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/0T/7R1A7HAYPST905HLQJGNCK.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/IA/KU1KNBBSRHZY8EW7KCSD3T.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/TZ/0DMMIG1ROPRXFGG9AP0TO8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/8/TZ/0DMMIG1ROPRXFGG9AP0TO8.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableObject.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UE5_Inven_Dialogue.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UE5_Inven_Dialogue.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +29,16 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://3" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/CoreMinimal.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/Logging/LogMacros.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/Logging/LogVerbosity.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -45,19 +50,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.UE5_Inven_Dialogue.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.UE5_Inven_Dialogue.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="UE5_Inven_Dialogue" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -138,7 +143,8 @@
       <workItem from="1747344453800" duration="580000" />
       <workItem from="1747359548206" duration="10143000" />
       <workItem from="1747609900210" duration="2270000" />
-      <workItem from="1747612298927" duration="6209000" />
+      <workItem from="1747612298927" duration="11569000" />
+      <workItem from="1747625972090" duration="1455000" />
     </task>
     <servers />
   </component>

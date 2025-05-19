@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ObjectType.h"
 #include "GameFramework/Actor.h"
 #include "InteractableObject.generated.h"
 
@@ -14,6 +15,18 @@ class UE5_INVEN_DIALOGUE_API AInteractableObject : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AInteractableObject();
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	ObjectType Type;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int ID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString ObjectName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int Amount;
 
 protected:
 	// Called when the game starts or when spawned

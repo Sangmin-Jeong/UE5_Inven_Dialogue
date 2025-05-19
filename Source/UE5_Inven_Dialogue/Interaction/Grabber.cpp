@@ -3,6 +3,7 @@
 
 #include "Grabber.h"
 #include "Engine/World.h"
+#include "UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.h"
 #include "UE5_Inven_Dialogue/Objects/InteractableObject.h"
 
 // Sets default values for this component's properties
@@ -41,7 +42,8 @@ void UGrabber::PickUp()
 		if(InteractableObject)
 		{
 			UE_LOG(LogTemp, Display, TEXT("PickUp Actor: %s"), *InteractableObject->GetActorNameOrLabel());
-			InteractableObject->Destroy();
+			AUE5_Inven_DialogueCharacter* Player = Cast<AUE5_Inven_DialogueCharacter>(GetOwner());
+			Player->Inventory->AddInventoryItem(InteractableObject);
 		}
 	}
 	else

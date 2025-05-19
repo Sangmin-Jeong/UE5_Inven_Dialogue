@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "InputActionValue.h"
+#include "Inventory/ActorInventory.h"
 #include "UE5_Inven_DialogueCharacter.generated.h"
 
 class UInputComponent;
@@ -34,9 +35,12 @@ class AUE5_Inven_DialogueCharacter : public ACharacter
 	/** Move Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	class UInputAction* MoveAction;
-	
+
 public:
 	AUE5_Inven_DialogueCharacter();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Inventory)
+	UActorInventory* Inventory; 
 
 protected:
 	virtual void BeginPlay();
@@ -77,7 +81,5 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
-
-
 };
 
