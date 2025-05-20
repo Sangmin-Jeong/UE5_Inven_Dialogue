@@ -38,6 +38,12 @@ void UActorInventory::AddInventoryItem(AInteractableObject* OBJ)
 				return;
 			}
 		}
+		// Check if the inventory is full
+		if(InventoryItems.Num() >= InventorySize)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Inventory is full"));
+			return;
+		}
 		// If the object is not in the inventory, add it
 		InventoryItems.Add(InventoryItems.Num(), OBJ->ItemData);
 		UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ItemData.ItemName.ToString());

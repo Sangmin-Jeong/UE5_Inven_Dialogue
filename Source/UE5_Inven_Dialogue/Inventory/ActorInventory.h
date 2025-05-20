@@ -22,12 +22,15 @@ public:
 	// Events
 	UPROPERTY(BlueprintCallable, BlueprintAssignable, Category = "Inventory")
 	FOnItemAddedToInventory OnItemAddedToInventory;
-	
+
 protected:
 	
 	// Inventory Items
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Inventory")
 	TMap<int, FItemData> InventoryItems;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Inventory")
+	int InventorySize = 4;
 
 public:	
 	UFUNCTION(BlueprintCallable)
@@ -38,6 +41,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void AddInventoryItem(AInteractableObject* OBJ);
+
+	UFUNCTION(BlueprintCallable)
+	int GetMaxInventorySize() const {return InventorySize; }
 
 		
 };

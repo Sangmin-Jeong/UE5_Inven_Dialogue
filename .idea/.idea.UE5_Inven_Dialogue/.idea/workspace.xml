@@ -10,11 +10,14 @@
     <list default="true" id="ea9ddb5a-ebe5-41b8-b2bf-b88e1621b50e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Inventory/BP_Recording.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Inventory/BP_Recording.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Inventory/WBP_ItemSlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Inventory/WBP_ItemSlot.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Inventory/WBP_Recording.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Inventory/WBP_Recording.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/BP_InteractableObject.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/BP_InteractableObject.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemBlue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemBlue.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemGreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemGreen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemPink.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemPink.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemYellow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Objects/PickableItems/BP_ItemYellow.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/0/RL/XUZYTANDHN93TFYD9ZDXQ4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/0/RL/XUZYTANDHN93TFYD9ZDXQ4.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/3/DV/04EWR7D2LN1V9E91VQVMJD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/3/DV/04EWR7D2LN1V9E91VQVMJD.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/30/KVC6LVDQPSFU7KTU6F1ZFC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/30/KVC6LVDQPSFU7KTU6F1ZFC.uasset" afterDir="false" />
@@ -23,6 +26,8 @@
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/OK/PR2Y3ASL5GXQ4J5IJKV1RV.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/OK/PR2Y3ASL5GXQ4J5IJKV1RV.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/XK/NVVFO3X5K7392W7F369CKD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/B/XK/NVVFO3X5K7392W7F369CKD.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/E/28/WXGGSC65DMWEQ9KQOWKWT3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/E/28/WXGGSC65DMWEQ9KQOWKWT3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://6" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://8" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -138,7 +143,7 @@
       <updated>1696390224533</updated>
       <workItem from="1747673885511" duration="661000" />
       <workItem from="1747675673003" duration="1239000" />
-      <workItem from="1747686761820" duration="3653000" />
+      <workItem from="1747686761820" duration="6092000" />
     </task>
     <servers />
   </component>
