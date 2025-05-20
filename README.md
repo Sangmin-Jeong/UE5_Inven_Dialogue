@@ -1,4 +1,5 @@
 🔑 Key Features
+
 Line Trace Interaction
 Enables picking up items and interacting with NPCs through line tracing.
 
@@ -11,7 +12,10 @@ Custom components that can be attached to any actor to support inventory and dia
 Organized Data Structures
 Uses structured data (e.g., structs) to manage item and dialogue properties cleanly and efficiently.
 
+.
+
 🎮 Controls
+
 Movement:           W, A, S, D
 
 Open Inventory:     I
