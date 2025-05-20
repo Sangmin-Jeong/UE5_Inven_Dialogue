@@ -43,6 +43,9 @@ public:
 	void AddInventoryItem(AInteractableObject* OBJ);
 
 	UFUNCTION(BlueprintCallable)
+	void Remove2DInventoryItem();
+
+	UFUNCTION(BlueprintCallable)
 	int GetMaxInventorySize() const {return InventorySize; }
 
 		

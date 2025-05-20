@@ -56,5 +56,22 @@ void UActorInventory::AddInventoryItem(AInteractableObject* OBJ)
 	}
 }
 
+void UActorInventory::Remove2DInventoryItem()
+{
+	for (auto& Item : InventoryItems)
+	{
+		if(Item.Value.Type == ObjectType::Item2D)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Removed %s from inventory"), *Item.Value.ItemName.ToString());
+			InventoryItems.Remove(Item.Key);
+			return;
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("No 2D object in the inventory"));
+		}
+	}
+}
+
 
 

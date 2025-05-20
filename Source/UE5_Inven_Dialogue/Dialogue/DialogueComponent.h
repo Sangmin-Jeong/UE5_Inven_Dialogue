@@ -21,13 +21,4 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Dialogue")
 	int CurrentDialogueIndex;
-
-	// UFUNCTION(BlueprintCallable, Category="Dialogue")
-	// void SetCurrentDialogue() {CurrentDialogue = DialogueMap[DialogueID];}
-	//
-	// UFUNCTION(BlueprintCallable, Category="Dialogue")
-	// FString GetDialogueString(int DialogueID) {return DialogueMap[DialogueID];}
-
-private:
-	// void InitDialogueMap();
 };
