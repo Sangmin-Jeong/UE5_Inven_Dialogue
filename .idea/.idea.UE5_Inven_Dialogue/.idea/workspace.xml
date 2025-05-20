@@ -7,27 +7,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9ddb5a-ebe5-41b8-b2bf-b88e1621b50e" name="Changes" comment="">
+    <list default="true" id="31ec024b-4443-47c7-bc6a-1b41a2309657" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Dialogue/DialogueType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue.dir/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/NPC/BP_InteractableNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/NPC/BP_InteractableNPC.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/5O/5YPYY6DYMUXNB5EZ7X2WF4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/5O/5YPYY6DYMUXNB5EZ7X2WF4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Interactor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Grabber.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Interactor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableNPC.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableNPC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UE5_Inven_Dialogue.sln.DotSettings.user" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableNPC.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Objects/InteractableNPC.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2xK5NEhjZwqZFfiHU3Dq7ukhJOs" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2xLcMQ50lfD8EBhFxnkBsUEMYe3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "C++ Project.UE5_Inven_Dialogue.executor": "Run",
+    "C++ Project.UE5_Inven_Dialogue.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -118,14 +127,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea9ddb5a-ebe5-41b8-b2bf-b88e1621b50e" name="Changes" comment="" />
+      <changelist id="31ec024b-4443-47c7-bc6a-1b41a2309657" name="Changes" comment="" />
       <created>1696390224533</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696390224533</updated>
-      <workItem from="1747673885511" duration="661000" />
-      <workItem from="1747675673003" duration="1239000" />
-      <workItem from="1747686761820" duration="7701000" />
+      <workItem from="1747720748804" duration="2449000" />
     </task>
     <servers />
   </component>
