@@ -4,6 +4,7 @@
 #include "Grabber.h"
 #include "Engine/World.h"
 #include "UE5_Inven_Dialogue/UE5_Inven_DialogueCharacter.h"
+#include "UE5_Inven_Dialogue/Objects/InteractableNPC.h"
 #include "UE5_Inven_Dialogue/Objects/InteractableObject.h"
 
 // Sets default values for this component's properties
@@ -33,22 +34,47 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
 
-void UGrabber::PickUp()
+void UGrabber::InteractWithActor()
 {
 	FHitResult HitResult;
 	if(CheckHasLineTraceHit(HitResult))
 	{
-		AInteractableObject* InteractableObject = Cast<AInteractableObject>(HitResult.GetActor());
-		if(InteractableObject)
+		AInteractableNPC* NPC = Cast<AInteractableNPC>(HitResult.GetActor());
+		AInteractableObject* Object = Cast<AInteractableObject>(HitResult.GetActor());
+
+		if(NPC)
 		{
-			UE_LOG(LogTemp, Display, TEXT("PickUp Actor: %s"), *InteractableObject->GetActorNameOrLabel());
-			AUE5_Inven_DialogueCharacter* Player = Cast<AUE5_Inven_DialogueCharacter>(GetOwner());
-			Player->Inventory->AddInventoryItem(InteractableObject);
+			TalkToNPC(NPC);
 		}
+		if(Object)
+		{
+			PickUp(Object);
+		}
+		
 	}
 	else
 	{
 		UE_LOG(LogTemp, Display, TEXT("No Actor Hit"));
+	}
+}
+
+void UGrabber::TalkToNPC(AInteractableNPC* InteractableNPC)
+{
+	if(InteractableNPC)
+	{
+		UE_LOG(LogTemp, Display, TEXT("Talk to NPC: %s"), *InteractableNPC->GetActorNameOrLabel());
+		//AUE5_Inven_DialogueCharacter* Player = Cast<AUE5_Inven_DialogueCharacter>(GetOwner());
+		// Display the dialogue UI
+	}
+}
+
+void UGrabber::PickUp(AInteractableObject* InteractableObject)
+{
+	if(InteractableObject)
+	{
+		UE_LOG(LogTemp, Display, TEXT("PickUp Actor: %s"), *InteractableObject->GetActorNameOrLabel());
+		AUE5_Inven_DialogueCharacter* Player = Cast<AUE5_Inven_DialogueCharacter>(GetOwner());
+		Player->Inventory->AddInventoryItem(InteractableObject);
 	}
 }
 

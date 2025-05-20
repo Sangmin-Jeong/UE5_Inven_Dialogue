@@ -20,7 +20,13 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	void PickUp();
+	void InteractWithActor();
+
+	UFUNCTION(BlueprintCallable)
+	void TalkToNPC(AInteractableNPC* InteractableNPC);
+	
+	UFUNCTION(BlueprintCallable)
+	void PickUp(AInteractableObject* InteractableObject);
 	
 private:
 	UPROPERTY(EditAnywhere)
