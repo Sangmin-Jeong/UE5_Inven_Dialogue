@@ -9,11 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="31ec024b-4443-47c7-bc6a-1b41a2309657" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_Inven_Dialogue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/NPC/BP_InteractableNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/NPC/BP_InteractableNPC.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/5O/5YPYY6DYMUXNB5EZ7X2WF4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/4/5O/5YPYY6DYMUXNB5EZ7X2WF4.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Dialogue/DialogueComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Dialogue/DialogueComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Dialogue/DialogueComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Dialogue/DialogueComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/DemoMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/DemoMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/1/TR/FTBHHFW7T0DBALMW8QD3XT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Maps/DemoMap/1/TR/FTBHHFW7T0DBALMW8QD3XT.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Interactor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Interaction/Interactor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_Inven_Dialogue/Inventory/ActorInventory.h" afterDir="false" />
     </list>
@@ -22,8 +21,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Epic Games/UE_5.2/Engine/Source/Runtime/Core/Public/Logging/LogVerbosity.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -126,7 +129,9 @@
       <option name="presentableId" value="Default" />
       <updated>1696390224533</updated>
       <workItem from="1747720748804" duration="3117000" />
-      <workItem from="1747754096877" duration="2277000" />
+      <workItem from="1747754096877" duration="5173000" />
+      <workItem from="1747806576416" duration="10165000" />
+      <workItem from="1747844653896" duration="518000" />
     </task>
     <servers />
   </component>

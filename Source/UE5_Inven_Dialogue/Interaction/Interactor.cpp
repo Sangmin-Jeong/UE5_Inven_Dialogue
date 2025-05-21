@@ -42,6 +42,10 @@ void UInteractor::PickUp(AInteractableObject* InteractableObject)
 		AUE5_Inven_DialogueCharacter* Player = Cast<AUE5_Inven_DialogueCharacter>(GetOwner());
 		Player->Inventory->AddInventoryItem(InteractableObject);
 	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No object to pick up"));
+	}
 }
 
 bool UInteractor::CheckHasLineTraceHit(FHitResult& HitResult)

@@ -7,7 +7,7 @@
 #include "UE5_Inven_Dialogue/Objects/InteractableObject.h"
 #include "ActorInventory.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnItemAddedToInventory, FItemData, ItemData);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnItemChangedInventory, FItemData, ItemData);
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -21,7 +21,7 @@ public:
 
 	// Events
 	UPROPERTY(BlueprintCallable, BlueprintAssignable, Category = "Inventory")
-	FOnItemAddedToInventory OnItemAddedToInventory;
+	FOnItemChangedInventory OnItemChangedInventory;
 
 protected:
 	
@@ -33,11 +33,11 @@ protected:
 	int InventorySize = 4;
 
 public:	
-	UFUNCTION(BlueprintCallable)
-	TMap<int, FItemData> GetInventoryItems() const { return InventoryItems; }
+	// UFUNCTION(BlueprintCallable)
+	// TMap<int, FItemData> GetInventoryItems() { return this->InventoryItems; }
 
 	UFUNCTION(BlueprintCallable)
-	FItemData GetInventoryItemByID(int id) const;
+	FItemData GetInventoryItemByID(int id);
 
 	UFUNCTION(BlueprintCallable)
 	void AddInventoryItem(AInteractableObject* OBJ);
@@ -46,7 +46,7 @@ public:
 	void Remove2DInventoryItem();
 
 	UFUNCTION(BlueprintCallable)
-	int GetMaxInventorySize() const {return InventorySize; }
+	int GetMaxInventorySize() {return InventorySize; }
 
 		
 };

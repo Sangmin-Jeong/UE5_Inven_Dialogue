@@ -13,7 +13,7 @@ UActorInventory::UActorInventory()
 	// ...
 }
 
-FItemData UActorInventory::GetInventoryItemByID(int id) const
+FItemData UActorInventory::GetInventoryItemByID(int id)
 {
 	if (InventoryItems.Contains(id))
 	{
@@ -32,8 +32,8 @@ void UActorInventory::AddInventoryItem(AInteractableObject* OBJ)
 			if(Item.Value.ID == OBJ->ItemData.ID)
 			{
 				Item.Value.Quantity += OBJ->ItemData.Quantity;
-				UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ItemData.ItemName.ToString());
-				OnItemAddedToInventory.Broadcast(OBJ->ItemData);
+				UE_LOG(LogTemp, Display, TEXT("%s's Quantity has increased"), *OBJ->ItemData.ItemName.ToString());
+				OnItemChangedInventory.Broadcast(OBJ->ItemData);
 				OBJ->Destroy();
 				return;
 			}
@@ -45,9 +45,9 @@ void UActorInventory::AddInventoryItem(AInteractableObject* OBJ)
 			return;
 		}
 		// If the object is not in the inventory, add it
-		InventoryItems.Add(InventoryItems.Num(), OBJ->ItemData);
-		UE_LOG(LogTemp, Warning, TEXT("Added %s to inventory"), *OBJ->ItemData.ItemName.ToString());
-		OnItemAddedToInventory.Broadcast(OBJ->ItemData);
+		InventoryItems.Add(OBJ->ItemData.ID, OBJ->ItemData);
+		UE_LOG(LogTemp, Display, TEXT("Added %s to inventory"), *OBJ->ItemData.ItemName.ToString());
+		OnItemChangedInventory.Broadcast(OBJ->ItemData);
 		OBJ->Destroy();
 	}
 	else
@@ -62,15 +62,15 @@ void UActorInventory::Remove2DInventoryItem()
 	{
 		if(Item.Value.Type == ObjectType::Item2D)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Removed %s from inventory"), *Item.Value.ItemName.ToString());
+			FItemData data = Item.Value;
+			UE_LOG(LogTemp, Display, TEXT("Removed %s from inventory"), *Item.Value.ItemName.ToString());
 			InventoryItems.Remove(Item.Key);
-			return;
-		}
-		else
-		{
-			UE_LOG(LogTemp, Warning, TEXT("No 2D object in the inventory"));
+			InventoryItems.Shrink();
+			OnItemChangedInventory.Broadcast(data);
+			break;
 		}
 	}
+	UE_LOG(LogTemp, Warning, TEXT("No 2D object in the inventory"));
 }
 
 
